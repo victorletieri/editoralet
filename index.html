@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Victor Artes</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(180deg, #0d0d0d, #1a1a1a);
+            color: white;
+            text-align: center;
+        }
+        .container { max-width: 400px; margin: auto; padding: 20px; }
+        .logo { width: 120px; margin: 20px auto; }
+        h2 { margin-bottom: 25px; }
+
+        .botao {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            background: #1f1f1f;
+            padding: 15px;
+            margin: 12px 0;
+            border-radius: 20px;
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            transition: 0.2s;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+            border: none;
+            width: 100%;
+            box-sizing: border-box;
+            cursor: pointer;
+        }
+
+        .botao:active { transform: scale(0.97); }
+
+        .icone {
+            width: 45px;
+            height: 45px;
+            background: #e60000;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            flex-shrink: 0;
+        }
+
+        /* Cor verde para o WhatsApp Business no rodapé */
+        .whats-bg {
+            background: #25D366 !important;
+        }
+
+        .texto { text-align: left; }
+        .sub { font-size: 12px; color: #aaa; }
+
+        /* Barra de interação zerada */
+        .interacao {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 30px;
+            padding: 15px;
+            background: #1f1f1f;
+            border-radius: 20px;
+            border: 1px solid #333;
+        }
+        .item-interacao { 
+            cursor: pointer; 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+            background: none;
+            border: none;
+            color: white;
+            font-family: inherit;
+        }
+        .item-interacao span { font-size: 14px; margin-top: 5px; font-weight: bold; }
+        .curtido { color: #ff4757; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <img src="logo.png" class="logo">
+    <h2>Victor Artes</h2>
+
+    <a class="botao" href="https://docs.google.com/forms/d/e/1FAIpQLSeGbA7z_ZB3vnlc_k4OpeIY6tsKSKQvZU5r5_1UmTUv2pWnSA/viewform?usp=header" target="_blank">
+        <div class="icone">📚</div>
+        <div class="texto">Livros e Apostilas<div class="sub">Conheça nosso material pedagógico</div></div>
+    </a>
+
+    <a class="botao" href="https://docs.google.com/forms/d/e/1FAIpQLSfVgiHG337hM05NfIN4CbkqlwRP5Tn1JJRa4wFPftpX9liV1Q/viewform?usp=header" target="_blank">
+        <div class="icone">📖</div>
+        <div class="texto">Livros de Histórias e Poesias<div class="sub">Obras literárias e coletâneas</div></div>
+    </a>
+
+    <a class="botao" href="https://docs.google.com/forms/d/e/1FAIpQLScU2dxmpMEDK6s-I7OxFCReEF3EFnlznqm3PeesvNHPdlFpZA/viewform?usp=header" target="_blank">
+        <div class="icone">🖍️</div>
+        <div class="texto">Livros de Colorir<div class="sub">Lindos desenhos para pintar</div></div>
+    </a>
+
+    <a class="botao" href="https://docs.google.com/forms/d/e/1FAIpQLSdRP-X77vzcmPsmlEFddItxklURsyflyU50NY17VW9hbIpqrQ/viewform?usp=header" target="_blank">
+        <div class="icone">✏️</div>
+        <div class="texto">Atividades Pedagógicas<div class="sub">Exercícios educativos e práticos</div></div>
+    </a>
+
+    <a class="botao" href="https://docs.google.com/forms/d/e/1FAIpQLSdwR8h_oybRO2VaoSvVnFODGRj7RH85WIDEPqIYyByidlyRmg/viewform?usp=header" target="_blank">
+        <div class="icone">📄</div>
+        <div class="texto">Arquivos em PDF<div class="sub">Acesse nossos conteúdos digitais</div></div>
+    </a>
+
+    <a class="botao" href="https://docs.google.com/forms/d/e/1FAIpQLSceKte6CvgPyFCxckZUbyzu5ZrAjOlfHICkP-DmNQ9k70G7Lw/viewform?usp=header" target="_blank">
+        <div class="icone">🧵</div>
+        <div class="texto">Alinhavos<div class="sub">Atividades de coordenação motora</div></div>
+    </a>
+
+    <a class="botao" href="https://docs.google.com/forms/d/e/1FAIpQLSdfIhiagYl2u1O0EwWGJvi-c4BlCQu5CjlMHQe6DYhgXzcEtQ/viewform?usp=header" target="_blank">
+        <div class="icone">🎨</div>
+        <div class="texto">Desenhos para Colorir<div class="sub">Baixe ou peça seus desenhos</div></div>
+    </a>
+
+    <a class="botao" href="https://wa.me/5511997344995?text=Olá%20Victor%20Artes" target="_blank">
+        <div class="icone whats-bg">💬</div>
+        <div class="texto">Contato<div class="sub">Fale direto no WhatsApp Business</div></div>
+    </a>
+
+    <div class="interacao">
+        <div class="item-interacao" style="cursor: default;">
+            👁️ <span id="txt-vistas">0</span>
+        </div>
+        <button class="item-interacao" onclick="curtir(this)">
+            ❤️ <span id="txt-curtidas">0</span>
+        </button>
+        <button class="item-interacao" onclick="comentar()">
+            💬 <span id="txt-comentarios">0</span>
+        </button>
+    </div>
+</div>
+
+<script>
+    window.onload = function() {
+        document.getElementById('txt-vistas').innerText = "1";
+    };
+
+    function curtir(btn) {
+        let el = document.getElementById('txt-curtidas');
+        let atual = parseInt(el.innerText);
+        
+        if(btn.classList.contains('curtido')) {
+            el.innerText = atual - 1;
+            btn.classList.remove('curtido');
+        } else {
+            el.innerText = atual + 1;
+            btn.classList.add('curtido');
+        }
+    }
+
+    function comentar() {
+        let msg = prompt("Deixe seu comentário para a Victor Artes:");
+        if(msg) {
+            let el = document.getElementById('txt-comentarios');
+            el.innerText = parseInt(el.innerText) + 1;
+            alert("Comentário enviado com sucesso!");
+        }
+    }
+</script>
+
+</body>
+</html>
